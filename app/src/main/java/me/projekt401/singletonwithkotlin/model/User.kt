@@ -1,4 +1,4 @@
-package io.projekt401.myapplication.model
+package me.projekt401.singletonwithkotlin.model
 
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName

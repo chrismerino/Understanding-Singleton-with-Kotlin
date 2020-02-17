@@ -1,4 +1,4 @@
-package io.projekt401.myapplication
+package me.projekt401.singletonwithkotlin
 
 import org.junit.Test
 

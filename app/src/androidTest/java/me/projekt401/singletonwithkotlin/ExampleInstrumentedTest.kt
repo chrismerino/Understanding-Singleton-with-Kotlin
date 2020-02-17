@@ -1,4 +1,4 @@
-package io.projekt401.myapplication
+package me.projekt401.singletonwithkotlin
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

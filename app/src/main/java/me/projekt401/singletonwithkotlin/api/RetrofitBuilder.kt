@@ -1,12 +1,12 @@
-package io.projekt401.myapplication.api
+package me.projekt401.singletonwithkotlin.api
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import retrofit2.create
 
 object RetrofitBuilder {
     const val BASE_URL = "https://open-api.xyz/"
 
+    // By Lazy means that this object (Singleton) can be inicialized once
     val retrofitBuilder: Retrofit.Builder by lazy {
         Retrofit.Builder()
             .baseUrl(BASE_URL)
@@ -18,5 +18,4 @@ object RetrofitBuilder {
             .build()
             .create(ApiService::class.java)
     }
-
 }
